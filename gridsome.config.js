@@ -10,11 +10,11 @@ module.exports = {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
-  siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
+  siteUrl: 'https://bookofathousandtales.com',
   settings: {
     web: process.env.URL_WEB || false,
-    twitter: process.env.URL_TWITTER || false,
-    github: process.env.URL_GITHUB || false,
+    twitter: 'https://twitter.com/tomheinan',
+    github: 'https://github.com/bookofathousandtales/bookofathousandtales.github.io',
     nav: {
       links: [
         { path: '/docs/', title: 'Docs' }
