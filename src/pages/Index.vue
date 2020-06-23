@@ -90,7 +90,7 @@ export default {
   },
 
   metaInfo() {
-    const title = 'Great Documentation starts here';
+    const title = 'Welcome';
     const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
 
     return {
