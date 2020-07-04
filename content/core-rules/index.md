@@ -48,32 +48,14 @@ The Year Zero Engine is built around a handful of key design principles that inf
 - **Memorable**<br>Your character's actions have meaning, and leave a lasting impact on both themself and the world. There are no classes or levels in Book of a Thousand Tales; rather, your character is the sum of their experiences and skills, and character progression is modelled as growth in those skills and their related disciplines. Your character grows a little bit with every action they take.
 - **Free and Open-source**<br>This rules text, and all accompanying content on this website, is provided for free, to all, in perpetuity. The entire site is stored in a public GitHub repository. Want to add a creature? Or an item? Don't like some part of how the game works? We welcome [pull requests](https://github.com/bookofathousandtales/bookofathousandtales.github.io/pulls).
 
-## Dark Mode
+## Tools of the Trade
 
-This seems to be a must have for any site in current year. Click the icon at the top of the page and try it out for yourself!
+You need very little in the way of resources in order to jump into a game of Book of a Thousand Tales. All players will need some means of simulating a six-sided die roll, and player characters will also need a character sheet.
 
-## TailwindCSS
+### Dice
 
-This starter uses [TailwindCSS](https://tailwindcss.com/) for layout and styling. You can easily configure it by editing the `tailwind.config.js` file. [PurgeCSS](https://purgecss.com/) is included as well to keep the bundle size as low as possible and the website fast and snappy!
+As a player in Book of a Thousand Tales, you will have to take risks. Sooner or later, your character will end up in situations where the outcome is uncertain, no matter how skilled they are. It’s time to break out the dice. Regular six-sided dice (also called D6) are required to play Book of a Thousand Tales. You will need 10-15 of these dice&mdash;if you don't have actual dice on hand, there are plenty of free app-based solutions that work just as well.
 
-### Changing Colors
+### Character Sheets
 
-The most important colors are defined in the `src/layouts/Default.vue` file at the top of the `style` block via CSS variables. If you want to change the primary color to orange for example, you would simply touch that value there.
-
-```css
-:rrot {
-  --color-ui-primary: theme('colors.orange.600');
-}
-```
-
-## Make it your own
-
-Of course this is just a starter to quickly get you going. After downloading and installing you can do whatever you want with this theme. Check out the `src` folder and take a look at the components.
-
-Docc uses [TailwindCSS](https://tailwindcss.com/). Colors and spacing can easily configured. To change the accent color, you only need to touch a single line in the code.
-
-Don't like how something was designed or implemented? Just change the code and **make it your way**.
-
-### Contribute
-
-If you find any spelling mistakes or have improvements to offer, I am open to anyone who has ideas and wants to contribute to this starter theme.
+To document your character, you use a character sheet. In the beta release of Book of a Thousand Tales, this sheet is available as a Google Sheet, which you can copy and modify to your heart's content. For specifics on _how_ to create your character, continue on to the Player's Guide.

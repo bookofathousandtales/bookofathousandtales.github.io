@@ -31,6 +31,13 @@ module.exports = {
             ]
           },
           {
+            title: 'The Rules of the Game',
+            items: [
+              '/core-rules/players-guide/',
+              '/core-rules/storytellers-guide/'
+            ]
+          },
+          {
             title: 'Appendix',
             items: [
               '/core-rules/license/'
