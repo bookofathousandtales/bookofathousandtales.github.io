@@ -17,10 +17,27 @@ module.exports = {
     github: 'https://github.com/bookofathousandtales/bookofathousandtales.github.io',
     nav: {
       links: [
-        { path: '/docs/', title: 'Docs' }
+        { path: '/core-rules/', title: 'Core Rules' }
       ]
     },
     sidebar: [
+      {
+        name: 'core-rules',
+        sections: [
+          {
+            title: 'Getting Started',
+            items: [
+              '/core-rules/'
+            ]
+          },
+          {
+            title: 'Appendix',
+            items: [
+              '/core-rules/license/'
+            ]
+          }
+        ]
+      },
       {
         name: 'docs',
         sections: [
