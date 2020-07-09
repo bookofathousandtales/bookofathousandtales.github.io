@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'core-rules'
-next: '/core-rules/'
-prev: '/core-rules/storytellers-guide/'
+prev: '/core-rules/'
+next: '/core-rules/storytellers-guide/'
 ---
 
 # Character Creation
