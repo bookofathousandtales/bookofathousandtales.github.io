@@ -1,6 +1,7 @@
 ---
 description: ''
 sidebar: 'core-rules'
+next: '/core-rules/character-creation/'
 ---
 
 # Introduction

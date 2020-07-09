@@ -12,12 +12,12 @@
             <Logo :width="40" class="text-ui-primary" />
           </g-link>
 
-          <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
+          <div v-if="settings.nav.links.length > 0" class="hidden flex-row ml-3 mr-3 lg:flex xl:flex">
             <g-link
               v-for="link in settings.nav.links"
               :key="link.path"
               :to="link.path"
-              class="block p-1 font-medium nav-link text-ui-typo hover:text-ui-primary"
+              class="flex truncate block ml-2 mr-2 p-1 font-medium nav-link text-ui-typo hover:text-ui-primary"
             >
               {{ link.title }}
             </g-link>

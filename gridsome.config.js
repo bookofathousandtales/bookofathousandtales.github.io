@@ -17,7 +17,8 @@ module.exports = {
     github: 'https://github.com/bookofathousandtales/bookofathousandtales.github.io',
     nav: {
       links: [
-        { path: '/core-rules/', title: 'Core Rules' }
+        { path: '/core-rules/', title: 'Core Rules' },
+        { path: '/compendium/', title: 'Compendium' }
       ]
     },
     sidebar: [
@@ -31,9 +32,14 @@ module.exports = {
             ]
           },
           {
-            title: 'The Rules of the Game',
+            title: 'Player\'s Guide',
             items: [
-              '/core-rules/players-guide/',
+              '/core-rules/character-creation/'
+            ]
+          },
+          {
+            title: 'Storyteller\'s Guide',
+            items: [
               '/core-rules/storytellers-guide/'
             ]
           },
@@ -46,22 +52,18 @@ module.exports = {
         ]
       },
       {
-        name: 'docs',
+        name: 'compendium',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'Preface',
             items: [
-              '/docs/',
-              '/docs/installation/',
-              '/docs/writing-content/',
-              '/docs/deploying/',
+              '/compendium/'
             ]
           },
           {
-            title: 'Configuration',
+            title: 'Grimoires',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
+              '/compendium/necronomicon/'
             ]
           }
         ]
