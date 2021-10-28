@@ -1,3 +1,50 @@
 site_name: Book of a Thousand Tales
+nav:
+  - Home: index.md
+  - 'Getting Started':
+    - getting-started/index.md
+    - 'Players and Roles': getting-started/players-and-roles.md
+    - 'The Gameplay Loop': getting-started/gameplay-loop.md
+    - 'Tools of the Trade': getting-started/tools-of-the-trade.md
+  - 'Core Rules':
+    - core-rules/index.md
+    - "Player's Guide":
+      - core-rules/players-guide/index.md
+    - "Storyteller's Guide":
+      - core-rules/storytellers-guide/index.md
+    - License: core-rules/license.md
 theme:
   name: material
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.indexes
+repo_url: https://github.com/bookofathousandtales/bookofathousandtales.github.io
+repo_name: bookofathousandtales
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tomheinan
+    - icon: fontawesome/brands/github
+      link: https://github.com/bookofathousandtales/bookofathousandtales.github.io/
+extra_css:
+  - stylesheets/extra.css
