@@ -1,18 +1,28 @@
 site_name: Book of a Thousand Tales
 nav:
   - Home: index.md
-  - 'Getting Started':
+  - "Getting Started":
     - getting-started/index.md
-    - 'Players and Roles': getting-started/players-and-roles.md
-    - 'The Gameplay Loop': getting-started/gameplay-loop.md
-    - 'Tools of the Trade': getting-started/tools-of-the-trade.md
-  - 'Core Rules':
+    - "Players and Roles": getting-started/players-and-roles.md
+    - "The Gameplay Loop": getting-started/gameplay-loop.md
+    - "Tools of the Trade": getting-started/tools-of-the-trade.md
+  - "Core Rules":
     - core-rules/index.md
     - "Player's Guide":
       - core-rules/players-guide/index.md
     - "Storyteller's Guide":
       - core-rules/storytellers-guide/index.md
     - License: core-rules/license.md
+  - "Compendium":
+    - compendium/index.md
+    - "The Art of War": compendium/art-of-war.md
+    - "The Atlas of Chapters": compendium/atlas-of-chapters.md
+    - "The Book of the Dead": compendium/book-of-the-dead.md
+    - "The Chronicle of Life": compendium/chronicle-of-life.md
+    - "The Crafter's Almanac": compendium/crafters-almanac.md
+    - "The Elemental Arcanum": compendium/elemental-arcanum.md
+    - "The Ledger of Secrets": compendium/ledger-of-secrets.md
+    - "The Tome of the Wild": compendium/tome-of-the-wild.md
 theme:
   name: material
   custom_dir: overrides
